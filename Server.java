@@ -364,7 +364,6 @@ public class Server extends JFrame implements ActionListener{
 	 * @param args
 	 */
 	
-	
 	class MouseLis extends MouseAdapter{
 		//MouseAdapterµÄ½éÉÜ
 		//http://blog.sina.com.cn/s/blog_62eaeadd0101er24.html

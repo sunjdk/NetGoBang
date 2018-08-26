@@ -184,7 +184,12 @@ public class Client extends JFrame implements ActionListener{
 			}
 		}	
 	}
-	//连接按钮事件处理方法
+	/**
+	 * 连接服务器方法
+	 * @param ip
+	 * @param port
+	 * @return 是否连接成功
+	 */
 	private boolean connectServer(String ip, int port) {
 		// TODO Auto-generated method stub
 		boolean isLink=true;
@@ -225,8 +230,7 @@ public class Client extends JFrame implements ActionListener{
 			//e.printStackTrace();
 		}
 		
-	}
-	
+	}	
 	
 	/**
 	 * 采用双缓冲技术防止屏幕闪烁
